@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1300px) {
+  .details--title {
+    font-size: 2rem;
+  }
+
+  .details--text {
+    font-size: 1.2rem;
+  }
+
+  .details--price {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
+
+  .details__icon {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .register {
+    flex-direction: column;
+  }
+
+  .register--right__container {
+    margin: 5rem 0;
+  }
+
+  .register--title__container {
+    padding-left: 5rem;
+  }
+
+  .register--subtitle {
+    font-size: 1.6rem;
+  }
+
+  .register--left::after {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .register--left::before {
+    width: 27rem;
+    height: 27rem;
+  }
+
+  .secondPage--logo {
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .details {
+    gap: 5rem;
+  }
+
+  .details--image {
+    max-width: 15rem;
+  }
+
+  .details--title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .details--text {
+    font-size: 1rem;
+  }
+
+  .details--price {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .details {
+    gap: 2rem;
+  }
+
+  .details--image {
+    max-width: 10rem;
+  }
+
+  .details--title {
+    font-size: 1.2rem;
+  }
+
+  .details--text {
+    font-size: 0.8rem;
+  }
+
+  .details--price {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .details__icon {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #aaa;
+    transition: all 0.3s;
+  }
+
+  .register--right__container {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .register--right__container {
+    padding-left: 9rem;
+  }
+
+  .secondPage--nav {
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+  .cards {
+    padding-left: 2rem;
+  }
+
+  .details {
+    position: relative;
+    padding: 1rem;
+  }
+
+  .details--image {
+    max-width: 7rem;
+  }
+
+  .details--title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .details--text {
+    font-size: 0.6rem;
+  }
+
+  .details--price {
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .details__icon {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #aaa;
+    transition: all 0.3s;
+  }
+
+  .register--subtitle {
+    font-size: 1.4rem;
+  }
+}

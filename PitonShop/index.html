@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="login--register__container">
+      <div class="register">
+        <div class="register--left">
+          <div class="register--title__container">
+            <h1 class="register--title">PitonShop</h1>
+            <p class="register--subtitle">The most popular book shop for IT</p>
+          </div>
+        </div>
+        <div class="register--right">
+          <!-- <div class="errorMessage errorMessage-warning">
+            <i class="fa-solid fa-xmark errorMessage--icon"></i>
+            <div class="message">Please do not share your password with others.</div>
+          </div> -->
+          <div class="register--right__container">
+            <div class="register--right__text">
+              <h3 class="register--right__title">Hello!</h3>
+              <p class="register--right__subtitle">Sign Up To Get Started</p>
+            </div>
+            <form class="form">
+              <input
+                type="text"
+                placeholder="&#xf007;  Name"
+                class="form--input form--name"
+                style="font-family: Arial, FontAwesome"
+              />
+              <input
+                type="text"
+                placeholder="&#xf007;  Surname"
+                class="form--input form--surname"
+                style="font-family: Arial, FontAwesome"
+              />
+              <input
+                type="text"
+                inputmode="numeric"
+                class="form--input form--phone"
+                placeholder="&#xf3cd; (555) 555-55-55"
+                style="font-family: Arial, FontAwesome"
+              />
+              <input
+                type="email"
+                class="form--input form--email"
+                placeholder="&#xf0e0;  Email Address"
+                style="font-family: Arial, FontAwesome"
+              />
+              <input
+                type="password"
+                class="form--input form--password"
+                placeholder="&#xf023;  Password"
+                style="font-family: Arial, FontAwesome"
+              />
+              <input
+                type="password"
+                class="form--input form--rePassword"
+                placeholder="&#xf023;  Re-Password"
+                style="font-family: Arial, FontAwesome"
+              />
+              <!-- <div class="checkbox--container">
+                <input type="checkbox" class="checkbox" id="checkbox" />
+                <label for="checkbox">Remember Me!</label>
+              </div> -->
+              <button type="submit" class="form--btn form--btn__register">
+                Register
+              </button>
+              <button type="submit" class="form--btn form--btn__login hidden">
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="secondPage hidden">
+      <nav class="secondPage--nav">
+        <p class="secondPage--logo">
+          Piton<span class="secondPage--shop">Shop</span>
+        </p>
+        <button class="secondPage--logout">Logout</button>
+      </nav>
+      <div class="cards">
+        <ul class="cards--lists">
+          <!-- <li class="cards--item" data-id="0">
+            <div class="card">
+              <img class="card--image" src="book.png" alt="Book" />
+              <p class="card--title">The Art of Computer Programming</p>
+              <hr class="card--horizontal" />
+              <p class="card--price">35.00 ₺</p>
+              <i class="fa-regular fa-heart card--icon"></i>
+            </div>
+          </li>
+           -->
+        </ul>
+      </div>
+    </div>
+    <div class="thirdPage hidden">
+      <nav class="secondPage--nav">
+        <p class="secondPage--logo">
+          Piton<span class="secondPage--shop">Shop</span>
+        </p>
+        <button class="secondPage--logout">Logout</button>
+      </nav>
+      <!-- <div class="details hidden">
+        <img class="details--image" src="book.png" alt="Book" />
+        <div class="details--container">
+          <h2 class="details--title">The Art of Computer Programming</h2>
+          <p class="details--text">
+            This book is actually two book in one. The first section is a
+            short tutorial on developing enterprise applications, which you
+            can read from start to finish to understand the scope of the books
+            lesson. The next section, the bulk of the book, is a detailed
+            reference to the patterns themselves. Each pattern provides usage
+            and implementation information, as well as detailed code examples
+            in Java or C#. The entire book is also richly illustrated with UML
+            diagrams to further explain the concepts.
+          </p>
+          <button class="details--price">35.00 ₺</button>
+        </div>
+        <i class="fa-solid fa-arrow-left-long details__icon"></i>
+      </div> -->
+    </div>
+  </body>
+</html>
